@@ -30,11 +30,13 @@ The data preprocessing step involves cleaning and preparing the raw healthcare r
   The sentiment analysis model is the core of this project. It involves training machine learning models to classify reviews into positive, negative, or neutral sentiments.    The following classification models are explored:
 
 **Logistic Regression**
-  Logistic regression is a linear model commonly used for binary classification tasks. In the context of sentiment analysis, it models the probability that a review belongs to a particular sentiment class.
+- Logistic regression is a linear model commonly used for binary classification tasks. In the context of sentiment analysis, it models the probability that a review belongs to a particular sentiment class.
+- 
 **K-Nearest Neighbors (K-NN)**
-  K-NN is a non-parametric, instance-based learning algorithm. It classifies a new data point based on the majority class of its k-nearest neighbors in the feature space.
+- K-NN is a non-parametric, instance-based learning algorithm. It classifies a new data point based on the majority class of its k-nearest neighbors in the feature space.
+
 **Support Vector Machines (SVM)**
-  SVM is a powerful classification algorithm that finds the hyperplane that best separates data into different classes. It can handle both linear and non-linear classification.
+- SVM is a powerful classification algorithm that finds the hyperplane that best separates data into different classes. It can handle both linear and non-linear classification.
 
 ### 3. **Model Evaluation**
   Model evaluation is crucial for assessing the performance of sentiment analysis models. Key metrics include accuracy, precision, recall, and F1-score. Cross-validation and hyperparameter tuning are employed to optimize model performance.
