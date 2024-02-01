@@ -31,7 +31,7 @@ The data preprocessing step involves cleaning and preparing the raw healthcare r
 
 **Logistic Regression**
 - Logistic regression is a linear model commonly used for binary classification tasks. In the context of sentiment analysis, it models the probability that a review belongs to a particular sentiment class.
-- 
+ 
 **K-Nearest Neighbors (K-NN)**
 - K-NN is a non-parametric, instance-based learning algorithm. It classifies a new data point based on the majority class of its k-nearest neighbors in the feature space.
 
